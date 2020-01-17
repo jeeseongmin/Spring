@@ -1,4 +1,5 @@
 package com.oper.app.controller;
+
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,20 +15,20 @@ import com.oper.app.service.UserListServiceImpl;
 public class MainController {
 	@Autowired
 	UserListServiceImpl userListService;
-	
-	@RequestMapping(value ="/", method = RequestMethod.GET)
+
+	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public ModelAndView home(ModelAndView mv) {
-		//Service call//
-		
+		// Service call//
+
 		List<UserListResponseDTO> userlist = userListService.getUserListService();
-		
-		for(int i=0; i<userlist.size(); i++) {
-			System.out.println("name: "+userlist.get(i).getUserName());
+
+		for (int i = 0; i < userlist.size(); i++) {
+			System.out.println("name: " + userlist.get(i).getUserName());
 		}
-		
+
 		mv.addObject("listuser", userlist);
-		mv.setViewName("viewP");
-		
+		mv.setViewName("mainview");
+
 		return mv;
 	}
 }

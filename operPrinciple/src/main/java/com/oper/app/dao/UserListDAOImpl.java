@@ -35,10 +35,10 @@ public class UserListDAOImpl implements UserListDAO{
 		userlist.add(list2);
 		
 		UserListResponseDTO list3 = new UserListResponseDTO();
-		list2.setUserName("김철수");
-		list2.setUserAge("28");
-		list2.setUserAddress("경기도 오산시");
-		list2.setUserImage("11.jpg");	
+		list3.setUserName("김철수");
+		list3.setUserAge("28");
+		list3.setUserAddress("경기도 오산시");
+		list3.setUserImage("11.jpg");	
 		
 		userlist.add(list3);
 		
