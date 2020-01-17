@@ -17,3 +17,9 @@ https://github.com/jeeseongmin/spring/tree/master/returnType2
 
 ### Spring controller parameter
 https://github.com/jeeseongmin/spring/tree/master/parameterType
+
+----------------------------
+## 2020-01-17 homework
+
+### Spring MVC CRUD Example(MySQL JDBC)
+https://github.com/jeeseongmin/spring/tree/master/mvcCrud
