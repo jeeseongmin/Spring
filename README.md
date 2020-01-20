@@ -23,3 +23,11 @@ https://github.com/jeeseongmin/spring/tree/master/parameterType
 
 ### Spring MVC CRUD Example(MySQL JDBC)
 https://github.com/jeeseongmin/spring/tree/master/mvcCrud
+
+### Spring mybatis & mysql
+https://github.com/jeeseongmin/spring/tree/master/springBatis
+
+----------------------------------
+## 2020-01-20 homework
+
+###
