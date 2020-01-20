@@ -6,12 +6,12 @@
 <tr><th>Id</th><th>Name</th><th>Salary</th><th>Designation</th><th>Edit</th><th>Delete</th></tr>  
    <c:forEach var="emp" items="${list}">   
    <tr>  
-   <td>${emp.id}</td>  
-   <td>${emp.name}</td>  
-   <td>${emp.salary}</td>  
-   <td>${emp.designation}</td>  
-   <td><a href="editemp/${emp.id}">Edit</a></td>  
-   <td><a href="deleteemp/${emp.id}">Delete</a></td>  
+   <td>${emp.ID}</td>  
+   <td>${emp.NAME}</td>  
+   <td>${emp.SALARY}</td>  
+   <td>${emp.DESIGNATION}</td>  
+   <td><a href="editemp/${emp.ID}">Edit</a></td>  
+   <td><a href="deleteemp/${emp.ID}">Delete</a></td>  
    </tr>  
    </c:forEach>  
    </table>  

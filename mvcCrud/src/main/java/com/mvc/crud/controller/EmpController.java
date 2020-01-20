@@ -51,7 +51,7 @@ public class EmpController {
     }    
     /* It updates model object. */    
     @RequestMapping(value="/editsave",method = RequestMethod.POST)    
-    public String editsave(@ModelAttribute("emp") Emp emp){    
+    public String editsave(@ModelAttribute("emp") Emp emp){
         dao.update(emp);    
         return "redirect:/viewemp";    
     }    
