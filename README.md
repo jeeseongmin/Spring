@@ -13,6 +13,13 @@ https://github.com/jeeseongmin/spring/tree/master/helloSpring2/src/main/java/com
 ![helloSpring](https://user-images.githubusercontent.com/47960777/72499422-24537600-3875-11ea-8ccc-8e4e97d4f631.png)
 
 ### Spring controller return type
-
+https://github.com/jeeseongmin/spring/tree/master/returnType2
 
 ### Spring controller parameter
+https://github.com/jeeseongmin/spring/tree/master/parameterType
+
+----------------------------
+## 2020-01-17 homework
+
+### Spring MVC CRUD Example(MySQL JDBC)
+https://github.com/jeeseongmin/spring/tree/master/mvcCrud
